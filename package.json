@@ -1,0 +1,22 @@
+{
+  "name": "cozy-bar-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obi3965/cozy-Bar-Template.git"
+  },
+  "author": "obaidullah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obi3965/cozy-Bar-Template/issues"
+  },
+  "homepage": "https://github.com/obi3965/cozy-Bar-Template#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
