@@ -1,0 +1,78 @@
+#quiz h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 3%;
+}
+.underline2{
+    border-bottom: 3px solid #e55039;
+    margin: auto;
+    width: 15%;
+}
+
+#pub{
+    padding: 12px;
+    margin-top: 3%;
+}
+
+.pub h3{ text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.pub-para p{
+    text-align: justify;
+    word-break: keep-all;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+.pub-image img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#quiz-night{
+    background: rgb(238, 236, 236);
+    margin-top: 4%;
+    padding: 12px;
+    
+
+}
+
+.pub-quiz-night-image img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 2%;
+}
+
+.quiz-night h3{ text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+.quiz-night-para p{
+    text-align: justify;
+    word-break: keep-all;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    margin-top: 2%;
+}
+
+#call-us{
+    background: #d35400;
+    padding: 12px;
+}
+.call-us h3{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.call-us h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.call-us h3 a:hover{
+    opacity: .75;
+}

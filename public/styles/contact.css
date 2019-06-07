@@ -1,0 +1,33 @@
+.contact h1{
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+.contact-para p{
+    text-align: justify;
+    word-break: keep-all;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+.address{
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.contact-address p{
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+}
+/*
+#mycontactForm{
+    background:  #d35400;
+    width: 100%;
+}*/
+
+

@@ -5,9 +5,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%= title %></title>
+   
+    <%- include('partials/style.ejs') %>
 </head>
 <body>
-        <%- include('partials/nav.ejs') %>
-   <h1>contacti 12</h1>
+        <div class="container">
+                <article class="box-shadow">
+        
+                        <header id="header">
+                    
+                                <%- include('partials/header.ejs') %>
+                                    </header>
+                    
+
+                    
+                        <%- include('partials/nav.ejs') %>
+                    
+                    <!--------------------------Start of contact page-------------------------->
+        <div class="page" id="contactPage">
+
+                        <section id="contact">
+                          <div class="container">
+                            <div class="contact">
+                              <h1>contact us</h1>
+                            </div>
+              
+                            <div class="row">
+                              <div class="col-md-8">
+                                <div class="contact-para">
+                                  <p>Flintstone Pub opened on June 1, 1994 and is owned by Per and Marianne Spring Poulsen.</p>
+              
+                                 <p> At Flintstone Pub, we strive to provide our customers with good and friendly service. Therefore,
+                                  our staff is carefully chosen. It is good and independent people who will give our customers a good
+                                  service in the best possible way. If you think that a job with fluctuating working hours will fit
+                                  well into your everyday life while being an independent and friendly person, then you are very
+                                  welcome to write an application to us. We are constantly missing new people (only danish speaking
+                                  bartenders) and maybe it's just like you we are missing ...
+              
+                                  If you want to book a table or if you need other inquiries - then you are very welcome to call or
+                                  possibly. stop by.</p>
+                                </div>
+                              </div>
+              
+                              <div class="col-md-4">
+                                <div class="address">
+                                   <h3>address</h3>
+                                </div>
+                               
+                                <div class="contact-address">
+                                  <p>Rosenkrantzgade 20</p>
+                                  <p>8000 Aarhus C</p>
+                                  <p>denmark</p>
+                                  <br>
+                                  <p>Kontakt os: +45 53843786</p>
+                                  <p>Skriv til os: info@flintstonepub.dk</p>
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+              
+                        </section>
+              
+              
+                        <section id="forms">
+                          
+                              <div class="container">
+              
+                             
+                            <div class="row">
+                              <div class="col-md-4">
+                                  <form action="message.html" name="contact" id="mycontactForm">
+                                      <div class="form-group">
+                                        <label for="username">Name</label>
+                                        <input type="text" class="form-control" id="username" name="username">
+                                      </div>
+                                        
+                                        
+                                       <div class="form-group">
+                                         <label for="age">Age</label>
+                                        <input type="text" id="age" class="form-control" name="userage">
+                                       </div>
+                                        
+                      
+                                        <div class="form-group">
+                                          <label for="pass">password</label>
+                                        <input type="text" class="form-control" name="userpass" id="pass">
+                                        </div>
+                                        
+                                         <div class="form-group">
+                                        <label for="repass">confirm password</label>
+                                        <input type="text" class="form-control" name="userrepass" id="repass">
+                                       </div>
+                      
+                                       <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="text" class="form-control" name="useremail" id="email_1">
+                                      </div>
+                                
+                                
+                                        <div class="form-group">
+                                        <span class="req">Gender</span>
+                                        <label><input type="radio"  name="gender">:Male </label>
+                                        <label><input type="radio"  name="gender">:Female </label>
+                                    </div>
+                                        
+                                    <div class="form-group">
+                                         <span class="req" class="form-control">Terms</span>  
+                                        <label for="agree">: i Agree</label>
+                                        <input type="checkbox"  name="terms" id="agree"> 
+                                        </div>
+                                       
+                                        <div class="form-group">
+                                        <label class="req" for="msge">Message</label>
+                                        <textarea name="message" class="form-control" id="msge" cols="25" rows="10"></textarea>
+                                    </div>
+                                        <button type="submit" class="btn btn-primary">submit</button>
+                                    </form>
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </section>
+                        
+                        <section id="call-us">
+                          <div class="call-us">
+                            <h3><a href="">call us for any question +45 53843786</a></h3>
+                          </div>
+                        </section>
+              
+                        <footer>
+                         <%- include('partials/footer.ejs') %>
+              
+                          <div class="copyright">
+                            <p>Flintstone Pub | CVR: 17297295 |  Gratis og lynhurtigt WIFI |</p>
+                          </div>
+                        </footer>
+                      </div>
+                    
+              
+              
+                </article>
+            </div>
+
+
+   <%- include('partials/js-file.ejs') %>
 </body>
 </html>

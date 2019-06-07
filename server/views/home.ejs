@@ -5,9 +5,253 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%= title %></title>
+    <%- include('partials/style.ejs') %>
+    
 </head>
 <body>
-    <%- include('partials/nav.ejs') %>
- <h1>home</h1>
+    <div class="container">
+        <article class="box-shadow">
+
+           
+                <header id="header">
+                    
+                        <%- include('partials/header.ejs') %>
+                            </header>
+            
+            
+                    <%- include('partials/nav.ejs') %>
+                
+
+                    <div class="banner-image">
+                            <%- include('partials/banner-image.ejs') %>
+                    </div>
+
+
+
+                     <!---------------------------------HOME PAGE--------------------------------->
+        <div class="page" id="homePage">
+
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="image-1 wow fadeIn"data-wow-duration="1s" data-wow-delay=".4s"></div>
+                  </div>
+                  <div class="col-sm-6 wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="image-title">
+                      <h2>For over 25 years we have had good memories with a mixed
+                        crowd of happy guests <i class="fas fa-grin-hearts"></i></h2>
+                      <div class="image-para">
+                        <p>Once you have put your legs in our pub, you are quickly
+                          caught by the good music, the cozy atmosphere and the
+                          advantageous prices. Our wide selection and open attitude
+                          means that we always attract a mixed crowd of happy guests.
+                          Here come people of all ages ranging from business people who
+                          enjoy a cold raft, to students and smiling tourists.</p>
+                        <p>
+                          Husk at følg vores Facebook side her for spændende events.
+                          Du kan også blive ven med os i boksen nedenfor. ⤵ </p>
+      
+                        <button type="button" class="btn btn-primary">
+                          <i id="thumb" class="fas fa-thumbs-up"></i> think it's good
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+      
+                </div>
+      
+      
+                <section class="wall-image">
+                  <div class="container">
+                  <div class="gallary-title">
+                    <h2>gallaries</h2>
+                  </div>
+                  <div class="underline-title"></div>
+                 
+                <div class="row no-gutters pt-5">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
+                    <div class="image1">
+                    <img class="image-gallary" src="./img/gallary1.jpg" alt="">
+                  </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 wow fadeIn"data-wow-duration="1s" data-wow-delay=".4s">
+                    <div class="image1">
+                      <img class="image-gallary" src="./img/gallary2.jpg" alt="">
+                    </div>
+                    </div>
+      
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
+                      <div class="image1">
+                        <img class="image-gallary" src="./img/gallary3.jpg" alt="">
+                      </div>
+                      </div>
+      
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="image1">
+                          <img class="image-gallary" src="./img/gallary4.jpg" alt="">
+                        </div>
+                        </div>
+      
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".4s">
+                          <div class="image1">
+                            <img class="image-gallary" src="./img/gallary5.jpg" alt="">
+                          </div>
+                          </div>
+      
+                          <div class="col-lg-4 col-md-4 col-sm-4 col-12 wow fadeInLeft"data-wow-duration="1s" data-wow-delay=".4s">
+                            <div class="image1">
+                              <img class="image-gallary" src="./img/gallary6.jpg" alt="">
+                            </div>
+                            </div>
+      
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-12 wow fadeInRight"data-wow-duration="1s" data-wow-delay=".4s">
+                              <div class="image1">
+                                <img class="image-gallary" src="./img/gallary7.jpg" alt="">
+                              </div>
+                              </div>
+      
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
+                                <div class="image1">
+                                  <img class="image-gallary" src="./img/gallary8.jpg" alt="">
+                                </div>
+                                </div>
+      
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
+                                  <div class="gallary-btn">
+                          <button id="getImage"> more images</button>
+                          <button id="close-images">close images</button>
+                        </div>
+                      
+                     
+                                </div>
+                      <div id="ajax-content"></div>
+                    
+                    
+                  </div>
+                </div>
+                </section>
+      
+                <!--events-->
+                <section id="events-title">
+                  <h1>events <i class="fas fa-smile-wink"></i></h1>
+                  <div class="underline1"></div>
+                  <div class="events-para">
+                    <p>A cold lager, a small crisp or an exciting drink is best enjoyed at a cozy bar. If you are looking for
+                      a bar in Aarhus, choose Flintstone Pub, which undoubtedly offers the city's best bar experience. Here
+                      you get everything you would expect from an Irish pub and a traditional tavern, but at Flintstone Pub
+                      you always get a little extra with the top of the hat. We have regular events every month.</p>
+                  </div>
+                </section>
+      
+                <section id="events-contents">
+                  <div class="events-container1">
+      
+                    <div class="event-1 wow fadeInLeft"data-wow-duration="1s" data-wow-delay=".5s">
+                      <figure>
+                        <img src="./img/pubcrawl-aarhus.png" alt="">
+                      </figure>
+                      <div class="event-desc">
+                        <h4>Pub crawl</h4>
+                        <p>Flintstone Pub is a mandatory stopover on your pub crawl route.</p>
+                      </div>
+                    </div>
+      
+                    <div class="event-1 wow fadeInDown"data-wow-duration="1s" data-wow-delay=".5s">
+                      <figure>
+                        <img src="./img/live-musik-aarhus.jpg" alt="">
+                      </figure>
+                      <div class="event-desc">
+                        <h4>Live music</h4>
+                        <p>Free live music the first and last Friday every month. It starts at 2 pm.</p>
+                      </div>
+                    </div>
+      
+                    <div class="event-1 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                      <figure>
+                        <img src="./img/live-fodbold.jpg" alt="">
+                      </figure>
+                      <div class="event-desc">
+                        <h4>sporting events</h4>
+                        <p>We send the best sports events on the big screen. Listen if we send your fight.</p>
+                      </div>
+      
+                    </div>
+      
+                  </div>
+      
+                  <div class="events-container2">
+                    <div class="event-2 wow fadeInUp"data-wow-duration="1s" data-wow-delay=".5s">
+                      <figure>
+                        <img src="./img/pencil.jpg" alt="">
+                      </figure>
+                      <div class="event-desc">
+                        <h4>Pubquiz</h4>
+                        <p>The first and last Tuesday of each month.
+                          The quiz starts at. 20:00 and lasts 1.5 hours.</p>
+                      </div>
+      
+                    </div>
+      
+                    <div class="event-2 wow fadeInRight"data-wow-duration="1s" data-wow-delay=".5s">
+                      <figure>
+                        <img src="./img/whisky-smagning-aarhus.jpg" alt="">
+                      </figure>
+                      <div class="event-desc">
+                        <h4>Whisky testing</h4>
+                        <p>We regularly hold whiskey tastings. Come and taste all kinds of whiskeys.
+                          Registration
+                          for your bartender or by mail. Price: 250 SEK.</p>
+                      </div>
+      
+                    </div>
+      
+                    <div class="event-2 wow fadeInLeft"data-wow-duration="1s" data-wow-delay=".5s">
+                      <figure>
+                        <img src="./img/bordtennins.jpg" alt="">
+                      </figure>
+                      <div class="event-desc">
+                        <h4>Beer Pong</h4>
+                        <p>10 teams of 2 people die every other month. Sign up for your bartender.</p>
+                      </div>
+      
+                    </div>
+      
+                  </div>
+                </section>
+      
+      
+                <!--our subscribe-->
+                <section id="subscribe">
+      
+                  <div class="subscribe-para">
+                    <p>if you wish to here our discount news, please subscribe us</p>
+                  </div>
+                  <form action="/subscribe"  method="POST" name="myForm" id="myForm" class="wow fadeIn"data-wow-duration="1s" data-wow-delay=".5s">
+                    <input type="email" placeholder="Your Email" name="email" id="email">
+          
+                    <button id="submit">submit</button>
+                    <div id="error"></div>
+                </form>
+      
+                </section>
+      
+      
+                <footer>
+                  <%- include('partials/footer.ejs') %>
+      
+                  <div class="copyright">
+                    <p>Flintstone Pub | CVR: 17297295 |  Gratis og lynhurtigt WIFI |</p>
+                  </div>
+                </footer>
+              </div>
+        </article>
+    </div>
+    
+ 
+
+
+
+
+ <%- include('partials/js-file.ejs') %>
 </body>
 </html>

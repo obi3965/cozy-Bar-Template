@@ -1,0 +1,367 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	
+    
+}
+
+.active .nav-link{
+	color: #d35400;
+}
+/* #eventsPage{
+	display: none;
+	margin-bottom: 4%;
+}
+#quizPage{
+	display: none;
+	margin-bottom: 4%;
+}
+#contactPage{
+	display: none;
+} */
+.box-shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#header{
+	 padding: 10px;
+     background: #d35400 !important;
+     
+	 
+}
+.feedback{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 10px;
+	
+	
+}
+.feedback p{
+	color: #fff;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+    margin-top: 5px;
+}
+.feedback a{
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+}
+
+.social-media{
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 10px;
+
+}
+.social-media i{
+	font-size: 25px;
+	padding: 6px;
+}
+
+.social-media i:hover{
+	color: #fff;
+	cursor: pointer;
+	
+}
+
+	
+
+/*********style navbar*********/
+.navbar{
+	background: #000 !important;
+	width: 100%;
+}
+.nav-link{
+	color: #fff;
+	text-transform: capitalize;
+	letter-spacing: 0.6px;
+	font-weight: 500;
+}
+.nav-link:hover{
+	color: #d35400;
+}
+
+
+.navbar-brand i{
+	font-size: 40px;
+	color: #fff;	
+}
+ 
+.navbar-brand i:hover{
+	color: #d35400;
+}
+
+
+.banner-image{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+	 url(/img/banner.jpeg);
+	height: 70vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.banner-title{
+	position: absolute;
+	top: 36%;
+	left: 10%;
+	width: 50%;
+}
+
+.banner-title h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 1px;
+	font-size: 45px;
+}
+.banner-title p{
+	font-weight: 500;
+	color: white;
+	word-break: keep-all;
+	font-size: 23px;
+	letter-spacing: 0.6px;
+	text-transform: capitalize;
+}
+
+
+
+/****style of my main page****/
+#container1{
+	 
+	margin-top: 4%;
+}
+.image-1{
+   background-image: url(./img/wine.jpeg);
+   height: 400px;
+   width: 100%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.image-title{
+   width: 100%;
+}
+.image-title h2{
+   font-weight: 600;
+   letter-spacing: 0.4px;
+  text-align: justify;
+  padding-right: 12px;
+}
+.image-title i{
+   color: #e58e26;
+}
+.image-para p{
+   word-break: keep-all;
+   letter-spacing: 0.4px;
+   font-weight: 400;
+   text-align: justify;
+  padding-right: 12px;
+  font-size: 17px;
+  margin: 10px;
+}
+
+.btn-primary{
+   margin: 14px;
+   text-transform: capitalize;
+
+}
+
+/****style images****/
+.wall-image{
+   background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), 
+   url(/img/wall.jpeg);
+  height: 120vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5%;
+  padding-bottom: 35px;
+  margin: auto;
+}
+.gallary-title h2{
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: -16px;
+  padding-top: 10px;
+}
+.underline-title{
+  border-bottom: 3px solid #d35400;
+  width: 12%;
+  margin: auto;
+  margin-top: 20px;
+}
+.image-gallary{
+  width: 100%;
+}
+
+
+.image1 img{
+   width: 100%;
+   height: 100%;
+   transition: 0.75s;
+   
+}
+.image1:hover img{
+   transform: scale(1.2);
+   cursor: pointer;
+}
+.image1 img{
+  width: 100%;
+  height: 100%;
+  
+}
+.image1{
+  width: 100%;
+   height: 220px;
+   overflow: hidden;
+ 
+  
+   
+}
+
+
+#getImage{
+  background-color: #d35400;
+  width: 160px;
+  padding: 8px 8px;
+  text-transform: capitalize;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+#close-images{
+  background-color: #d35400;
+  width: 160px;
+  padding: 8px 8px;
+  text-transform: capitalize;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.gallary-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 360px;
+  margin-top: 30%;
+}
+
+/*style my events*/
+#events-title h1{
+  padding: 8px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.underline1{
+  border-bottom: 3px solid #e58e26;
+  width: 16%;
+  margin: auto;
+}
+.events-para{
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.events-para p{
+  word-break: break-all;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.fa-smile-wink{
+  color: #e58e26;
+}
+#events-contents{
+  height: 55vh;
+  width: 94%;
+  margin: auto;
+}
+.events-container1, .events-container2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.event-1, .event-2{
+  height: 130px;
+  width: 330px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 5px;
+}
+.event-desc p{
+  word-break: break-all;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  padding: 4px;
+}
+
+
+/****style my subscribe****/
+#subscribe{
+  background: #d35400;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+ 
+  
+}
+#myForm{
+  width: 620px;
+}
+#submit{
+  background: #210e01;
+  margin-left: -5px;
+  color: white;
+  width: 120px;
+  padding: 9.4px;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+#email{
+  width: 380px;
+  padding: 8px;
+}
+.subscribe-para{
+  width: 600px;
+}
+.subscribe-para p{
+  color: white;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+#error{
+  float: left;
+  margin-top: -5px;
+  width: 300px;
+}
+
+#errorsMessage{
+  width: 292px;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}

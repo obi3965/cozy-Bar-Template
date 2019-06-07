@@ -7,6 +7,8 @@ module.exports = (app) => {
           "title":"home"
        })
     })
+
+
     
     app.get('/events', function(req,res, next){
        res.render('events.ejs',{
@@ -31,6 +33,8 @@ module.exports = (app) => {
        })
     })
  
+
+    
         
     // app.get('/', (req, res, next) => {
     //    let now = new Date('2019-01-14 07:00:14');

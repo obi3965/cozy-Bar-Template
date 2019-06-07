@@ -1,0 +1,142 @@
+
+.events-page h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.events-page-para{
+    width: 90%;
+    letter-spacing: 0.5px;
+    margin: auto;
+    word-break: keep-all;
+    font-weight: 400;
+    font-size: 17.6px;
+    text-align: justify;
+}
+
+#whisky{
+    background: rgb(238, 236, 236);
+    padding: 12px;
+}
+.whisky-title{
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.whisky-image img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.whisky-para p{
+    text-align: justify;
+    word-break: keep-all;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+#sport{
+    margin-top: 40px;
+    padding: 12px;
+}
+.sport-image img{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sport h3{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.sport-para p{
+    text-align: justify;
+    word-break: keep-all;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.music h3{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+#music{
+    background: rgb(238, 236, 236);
+    padding: 12px;
+}
+.music-image img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.music-para p{
+    text-align: justify;
+    word-break: keep-all;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+#pong{
+    margin-top: 3%;
+    padding: 12px;
+}
+.pong h3{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.pong-para p{
+    text-align: justify;
+    word-break: keep-all;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+.pong-image img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#loan{
+    background: rgb(238, 236, 236);
+    padding: 12px;
+    margin-top: 3%;
+    padding-bottom: 30px;
+}
+.loan-image img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 3%;
+}
+.loan-para p{
+    text-align: justify;
+    word-break: keep-all;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+
+#paw{
+    margin-top: 3%;
+    padding: 12px;
+    padding-bottom: 30px;
+}
+
+.paw h3{ text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.paw-para p{
+    text-align: justify;
+    word-break: keep-all;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+.paw-image img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

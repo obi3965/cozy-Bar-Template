@@ -1,9 +1,10 @@
 // indlæs express modulet, dette er vores serverprogram
 const express = require('express');
 
-
 // opret en express applikation 
 const app = express();
+
+
 
 
 const logger = require('morgan');
@@ -34,9 +35,8 @@ app.use(express.static('public'));
 
 
 // start serveren på port 3000 
-const port = 8080;
-app.listen(port, (error) => {
-   if (error) console.log(error);
-   console.log('\x1b[35m%s\x1b[0m', '================================================================'); // udskriver en lilla streg i konsol
-   console.log('Server is listening on port %s, address: %s', port, 'http://localhost:' + port);
-});
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`server is running on port ${PORT}`));
+   
+
+
